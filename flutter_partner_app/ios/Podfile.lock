@@ -1,0 +1,118 @@
+PODS:
+  - connectivity_plus (0.0.1):
+    - Flutter
+    - ReachabilitySwift
+  - device_info (0.0.1):
+    - Flutter
+  - device_info_plus (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_jailbreak_detection (1.0.0):
+    - Flutter
+    - IOSSecuritySuite
+  - flutter_keyboard_visibility (0.0.1):
+    - Flutter
+  - flutter_secure_storage (6.0.0):
+    - Flutter
+  - IOSSecuritySuite (1.9.10)
+  - local_auth_ios (0.0.1):
+    - Flutter
+  - open_file_safe (0.0.1):
+    - Flutter
+  - package_info_plus (0.4.5):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - permission_handler_apple (9.1.1):
+    - Flutter
+  - ReachabilitySwift (5.0.0)
+  - share_plus (0.0.1):
+    - Flutter
+  - syncfusion_flutter_pdfviewer (0.0.1):
+    - Flutter
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - connectivity_plus (from `.symlinks/plugins/connectivity_plus/ios`)
+  - device_info (from `.symlinks/plugins/device_info/ios`)
+  - device_info_plus (from `.symlinks/plugins/device_info_plus/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_jailbreak_detection (from `.symlinks/plugins/flutter_jailbreak_detection/ios`)
+  - flutter_keyboard_visibility (from `.symlinks/plugins/flutter_keyboard_visibility/ios`)
+  - flutter_secure_storage (from `.symlinks/plugins/flutter_secure_storage/ios`)
+  - local_auth_ios (from `.symlinks/plugins/local_auth_ios/ios`)
+  - open_file_safe (from `.symlinks/plugins/open_file_safe/ios`)
+  - package_info_plus (from `.symlinks/plugins/package_info_plus/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - share_plus (from `.symlinks/plugins/share_plus/ios`)
+  - syncfusion_flutter_pdfviewer (from `.symlinks/plugins/syncfusion_flutter_pdfviewer/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/ios`)
+
+SPEC REPOS:
+  trunk:
+    - IOSSecuritySuite
+    - ReachabilitySwift
+
+EXTERNAL SOURCES:
+  connectivity_plus:
+    :path: ".symlinks/plugins/connectivity_plus/ios"
+  device_info:
+    :path: ".symlinks/plugins/device_info/ios"
+  device_info_plus:
+    :path: ".symlinks/plugins/device_info_plus/ios"
+  Flutter:
+    :path: Flutter
+  flutter_jailbreak_detection:
+    :path: ".symlinks/plugins/flutter_jailbreak_detection/ios"
+  flutter_keyboard_visibility:
+    :path: ".symlinks/plugins/flutter_keyboard_visibility/ios"
+  flutter_secure_storage:
+    :path: ".symlinks/plugins/flutter_secure_storage/ios"
+  local_auth_ios:
+    :path: ".symlinks/plugins/local_auth_ios/ios"
+  open_file_safe:
+    :path: ".symlinks/plugins/open_file_safe/ios"
+  package_info_plus:
+    :path: ".symlinks/plugins/package_info_plus/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  share_plus:
+    :path: ".symlinks/plugins/share_plus/ios"
+  syncfusion_flutter_pdfviewer:
+    :path: ".symlinks/plugins/syncfusion_flutter_pdfviewer/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
+
+SPEC CHECKSUMS:
+  connectivity_plus: bf0076dd84a130856aa636df1c71ccaff908fa1d
+  device_info: d7d233b645a32c40dfdc212de5cf646ca482f175
+  device_info_plus: c6fb39579d0f423935b0c9ce7ee2f44b71b9fce6
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_jailbreak_detection: c5bf66ff6c0c4230769b6ba0bd63eb6ac4148a76
+  flutter_keyboard_visibility: 0339d06371254c3eb25eeb90ba8d17dca8f9c069
+  flutter_secure_storage: 23fc622d89d073675f2eaa109381aefbcf5a49be
+  IOSSecuritySuite: e764318117aabd1f894cbdfc5ac013a59352953d
+  local_auth_ios: c6cf091ded637a88f24f86a8875d8b0f526e2605
+  open_file_safe: 84c01ac91378bd9166ab570d7f22f4fb3532141a
+  package_info_plus: 115f4ad11e0698c8c1c5d8a689390df880f47e85
+  path_provider_foundation: 29f094ae23ebbca9d3d0cec13889cd9060c0e943
+  permission_handler_apple: e76247795d700c14ea09e3a2d8855d41ee80a2e6
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  share_plus: c3fef564749587fc939ef86ffb283ceac0baf9f5
+  syncfusion_flutter_pdfviewer: bb9998884b864cfedf72628df3503bdf57e397c0
+  url_launcher_ios: bf5ce03e0e2088bad9cc378ea97fa0ed5b49673b
+  webview_flutter_wkwebview: 2e2d318f21a5e036e2c3f26171342e95908bd60a
+
+PODFILE CHECKSUM: a57f30d18f102dd3ce366b1d62a55ecbef2158e5
+
+COCOAPODS: 1.14.3

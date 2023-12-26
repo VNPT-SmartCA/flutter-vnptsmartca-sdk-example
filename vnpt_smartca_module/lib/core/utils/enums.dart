@@ -1,0 +1,1 @@
+enum VerifyInfoType { error, error3times }

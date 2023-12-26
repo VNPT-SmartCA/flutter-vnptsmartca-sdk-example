@@ -1,0 +1,146 @@
+name: vnpt_smartca_module
+description: A new Flutter module project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+#
+# This version is used _only_ for the Runner app, which is used if you just do
+# a `flutter run` or a `flutter make-host-app-editable`. It has no impact
+# on any other native host app that you embed your Flutter project into.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  get:
+  get_it:
+  injectable:
+  local_auth:
+  # upgrader:
+  internet_connection_checker:
+  dartx:
+  device_info_plus:
+  device_info:
+  flutter_secure_storage:
+  # shared_preferences:
+  flutter_form_builder:
+  form_builder_validators:
+  # in_app_update:
+#  firebase_core:
+#  firebase_messaging:
+  dartz:
+#  flutter_jailbreak_detection:
+  path_provider:
+  connectivity_plus:
+  flutter_svg:
+  uuid:
+  asn1lib:
+  pointycastle: ^3.6.1
+  corsac_jwt: ^1.0.0-nullsafety.1
+  dio:
+  dio_smart_retry: 
+  scale_size: ^0.0.6
+  url_launcher:
+  webview_flutter: ^4.4.2
+  clipboard:
+  pull_to_refresh: ^2.0.0
+  pin_code_fields: ^8.0.1
+  base32: 
+  crypto: 
+  encrypt: 
+  carousel_slider: ^4.2.1
+  share_plus:
+
+  # flutter_local_notifications: ^16.1.0
+  syncfusion_flutter_pdfviewer:
+  syncfusion_flutter_pdf: 
+  # pdf_render: 
+
+  syncfusion_flutter_signaturepad: 
+  google_fonts: 
+  path: ^1.8.2
+  #open_file: ^3.3.1
+  open_file_safe: ^3.2.3
+  flutter_typeahead: ^4.8.0
+  intl:
+  dotted_border:
+  # pick images
+  # image_picker:
+
+  # crop images
+  # image_cropper: 
+  # path
+  # file_picker: 
+  # uni_links:
+  # flutter_image_compress:
+  collection:
+  permission_handler: ^11.0.1
+#  mobile_scanner: ^3.5.2
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  syncfusion_flutter_core: ^23.1.43
+  package_info_plus:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner:
+  flutter_gen_runner: ^5.3.2
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+dependency_overrides:
+  ffi: ^1.0.0
+
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  module:
+    androidX: true
+    androidPackage: com.vnpt.smartca.module.vnpt_smartca_module
+    iosBundleIdentifier: com.vnpt.smartca.module.vnptSmartcaModule
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter/Inter-Bold.ttf
+          weight: 700
+
+flutter_intl:
+  enabled: true
+  arb_dir: lib/views/i18n/locales/
+  output_dir: lib/views/i18n/generated_locales
+  class_name: AppLocalizations
+  main_locale: vi
+
+flutter_gen:
+  integrations:
+    flutter_svg: true
