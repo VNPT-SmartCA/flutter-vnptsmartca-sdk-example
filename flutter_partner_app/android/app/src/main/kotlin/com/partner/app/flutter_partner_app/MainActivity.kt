@@ -1,7 +1,11 @@
 package com.partner.app.flutter_partner_app
 
 import android.os.Handler
-import io.flutter.embedding.android.FlutterActivity
+import com.vnpt.smartca.ConfigSDK
+import com.vnpt.smartca.SmartCAEnvironment
+import com.vnpt.smartca.SmartCALanguage
+import com.vnpt.smartca.SmartCAResult
+import com.vnpt.smartca.VNPTSmartCASDK
 import io.flutter.embedding.android.FlutterFragmentActivity
 import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugin.common.MethodChannel
@@ -20,6 +24,7 @@ class MainActivity : FlutterFragmentActivity() {
                 config.partnerId = "VNPTSmartCAPartner-add1fb94-9629-49`47-b7d8-f2671b04c747"
                 config.environment = SmartCAEnvironment.DEMO_ENV
                 config.lang = SmartCALanguage.VI
+                config.isFlutter = true
 
                 VNPTSmartCA.initSDK(config)
 

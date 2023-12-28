@@ -81,6 +81,7 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 
     implementation files('libs/ekyc_sdk-release-v3.2.7.aar')
+    implementation files('libs/sdk_vnpt_smartca_library-release.aar')
     compileOnly files('libs/eContract-v3.1.0.aar')
 
 }

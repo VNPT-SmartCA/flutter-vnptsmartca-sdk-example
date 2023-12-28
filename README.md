@@ -1,26 +1,26 @@
-# Tích hợp Flutter
+# Tích hợp module Flutter
 
--    Yêu cầu Flutter >= 3.1.5
+-    Yêu cầu Dart >= 3.1.5
 
 ## Bước 1: Tải module và cấu hình
 
--    Copy thư mục vnpt_smartca_module trong example này vào trong project
+-    Copy thư mục **vnpt_smartca_module** trong example này vào trong project
 
--    Bổ sung cài đặt module vào project theo đường dẫn tới thư mục vnpt_smartca_module
+-    Bổ sung cài đặt module vào project theo đường dẫn tới thư mục **vnpt_smartca_module**
 
 ```
 vnpt_smartca_module:
     path: ../vnpt_smartca_module
 ```
 
--    Bổ sung đoạn code sau vào file main.dart
+-    Bổ sung đoạn code sau vào file **main.dart**
 
 ```
 @pragma('vm:entry-point')
 void VNPTSmartCAEntryponit() => bootstrapSmartCAApp();
 ```
 
--    Bổ sung đoạn code thiết lập tương tác giữa Flutter và native
+-    Bổ sung đoạn code thiết lập tương tác giữa Flutter và native vào class sử dụng sdk
 
 ```
   static const platform = MethodChannel("com.vnpt.flutter/partner");
@@ -69,10 +69,12 @@ void VNPTSmartCAEntryponit() => bootstrapSmartCAApp();
 
 -    Tất cả các thư viện cấu hình Embed & Sign
 
--    Nếu project chưa cấu hình quyền sử dụng camera(NSCameraUsageDescription) hãy bổ sung cấu hình quyền sử dụng camera trong Info.plist
+-    Nếu project chưa cấu hình quyền sử dụng camera(NSCameraUsageDescription) hãy bổ sung cấu hình quyền sử dụng camera trong **Info.plist**
 
 ## Bước 2: Khởi tạo SDK
+
 - Code tại **AppDelegate**
+
 ```swift
 import UIKit
 import Flutter
@@ -142,8 +144,8 @@ import SmartCASDK
 
 ## Bước 1: Tải SDK và cấu hình Project
 
-- Tải về bộ tích hợp SDK tại https://github.com/VNPT-SmartCA/vnpt_smartca_sdk_android và giải nén ra thư mục.
-- Sau khi giải nén, copy các file aar, thư mục repo vào thư mục **libs** trong **app** (1)
+-  Copy các file aar theo đường dẫn **android/app/libs** trong example này vào thư mục **app/libs** trong project
+
 -  Thêm thông tin cấu hình vào file **app/settings.gradle** như dưới:
 
 ````
@@ -177,7 +179,7 @@ dependencyResolutionManagement {
 }  
 ````
 
-- Thêm các thông tin cấu hình vào app/build.gradle
+- Thêm các thông tin cấu hình vào **app/build.gradle**
 
 ````
  plugins {  
@@ -212,7 +214,7 @@ sourceSets {
 }
 ````
 
-- Trong android/defaultConfig thêm
+- Trong **android/defaultConfig** thêm
 
 ````
  ndk {  
@@ -221,7 +223,7 @@ sourceSets {
 }
 ````
 
-- Trong android/buildType thêm 
+- Trong **android/buildType** thêm 
 
 ````
 profile {  
@@ -283,7 +285,11 @@ implementation files('libs/eContract-v3.1.0.aar'
 
 ```` java
 import android.os.Handler
-import io.flutter.embedding.android.FlutterActivity
+import com.vnpt.smartca.ConfigSDK
+import com.vnpt.smartca.SmartCAEnvironment
+import com.vnpt.smartca.SmartCALanguage
+import com.vnpt.smartca.SmartCAResult
+import com.vnpt.smartca.VNPTSmartCASDK
 import io.flutter.embedding.android.FlutterFragmentActivity
 import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugin.common.MethodChannel
@@ -302,6 +308,7 @@ class MainActivity : FlutterFragmentActivity() {
                 config.partnerId = "VNPTSmartCAPartner-add1fb94-9629-49`47-b7d8-f2671b04c747"
                 config.environment = SmartCAEnvironment.DEMO_ENV
                 config.lang = SmartCALanguage.VI
+                config.isFlutter = true
 
                 VNPTSmartCA.initSDK(config)
 

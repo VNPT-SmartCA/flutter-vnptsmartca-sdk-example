@@ -805,7 +805,7 @@ class AssetGenImage {
       matchTextDirection: matchTextDirection,
       gaplessPlayback: gaplessPlayback,
       isAntiAlias: isAntiAlias,
-      package: AppConfig.isFlutter ? "vnpt_smartca_module" : null,//package,
+      package: AppConfig.package,//package,
       filterQuality: filterQuality,
       cacheWidth: cacheWidth,
       cacheHeight: cacheHeight,
@@ -819,7 +819,7 @@ class AssetGenImage {
     return AssetImage(
       _assetName,
       bundle: bundle,
-      package: package,
+      package: AppConfig.package,
     );
   }
 
@@ -858,7 +858,7 @@ class SvgGenImage {
       key: key,
       matchTextDirection: matchTextDirection,
       bundle: bundle,
-      package: AppConfig.isFlutter ? "vnpt_smartca_module" : null,//package,
+      package: AppConfig.package,//package,
       width: width,
       height: height,
       fit: fit,
