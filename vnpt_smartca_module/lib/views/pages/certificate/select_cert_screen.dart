@@ -258,7 +258,7 @@ class _CertificateItemWidget extends StatelessWidget {
                 children: [
                   BaseText(
                     certificateModel.refName ??
-                        controller.currentUser.value!.displayName,
+                        (controller.currentUser.value?.displayName ?? ""),
                     color: Colors.white,
                     height: 24 / 14,
                     fontWeight: FontWeight.w700,
