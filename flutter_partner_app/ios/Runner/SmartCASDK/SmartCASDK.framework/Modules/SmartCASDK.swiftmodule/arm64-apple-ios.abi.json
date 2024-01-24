@@ -5938,343 +5938,343 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/SmartCAResult.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/SmartCAResult.swift",
       "kind": "IntegerLiteral",
       "offset": 1061,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/SmartCAResult.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/SmartCAResult.swift",
       "kind": "IntegerLiteral",
       "offset": 1106,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/SmartCAResult.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/SmartCAResult.swift",
       "kind": "IntegerLiteral",
       "offset": 1149,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/SmartCAResult.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/SmartCAResult.swift",
       "kind": "IntegerLiteral",
       "offset": 1188,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 205,
       "length": 12,
       "value": "\"configeKYC\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 244,
       "length": 10,
       "value": "\"eKYCFull\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 281,
       "length": 10,
       "value": "\"ocrFront\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 317,
       "length": 9,
       "value": "\"ocrBack\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 360,
       "length": 17,
       "value": "\"ocrFrontAndBack\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 407,
       "length": 13,
       "value": "\"compareFace\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 449,
       "length": 12,
       "value": "\"verifyFace\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 525,
       "length": 16,
       "value": "\"configContract\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 572,
       "length": 14,
       "value": "\"showContract\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 648,
       "length": 19,
       "value": "\"getAuthentication\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 709,
       "length": 25,
       "value": "\"getAuthenticationResult\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 779,
       "length": 23,
       "value": "\"getWaitingTransaction\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 848,
       "length": 29,
       "value": "\"getWaitingTransactionResult\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 912,
       "length": 13,
       "value": "\"getMainInfo\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 961,
       "length": 19,
       "value": "\"getMainInfoResult\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1011,
       "length": 12,
       "value": "\"activeEKYC\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1057,
       "length": 17,
       "value": "\"activeEContract\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1112,
       "length": 12,
       "value": "\"userCancel\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1150,
       "length": 24,
       "value": "\"VNPTSmartCASDK#isReady\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1202,
       "length": 22,
       "value": "\"VNPTSmartCASDK#start\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1262,
       "length": 16,
       "value": "\"configContract\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1309,
       "length": 14,
       "value": "\"showContract\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
       "kind": "StringLiteral",
       "offset": 197,
       "length": 11,
       "value": "\"SmartCASDK.EKYCService\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
       "kind": "StringLiteral",
       "offset": 305,
       "length": 14,
       "value": "\"vnpt_smartca\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
       "kind": "IntegerLiteral",
       "offset": 585,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
       "kind": "IntegerLiteral",
       "offset": 601,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
       "kind": "IntegerLiteral",
       "offset": 585,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
       "kind": "IntegerLiteral",
       "offset": 601,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
       "kind": "IntegerLiteral",
       "offset": 585,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
       "kind": "IntegerLiteral",
       "offset": 601,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
       "kind": "StringLiteral",
       "offset": 645,
       "length": 4,
       "value": "\"vi\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
       "kind": "StringLiteral",
       "offset": 656,
       "length": 4,
       "value": "\"en\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
       "kind": "StringLiteral",
       "offset": 645,
       "length": 4,
       "value": "\"vi\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
       "kind": "StringLiteral",
       "offset": 656,
       "length": 4,
       "value": "\"en\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
       "kind": "BooleanLiteral",
       "offset": 913,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
       "kind": "BooleanLiteral",
       "offset": 1076,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
       "kind": "StringLiteral",
       "offset": 214,
       "length": 35,
       "value": "\"vnpt.plugins.io\/smartca_messaging\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
       "kind": "StringLiteral",
       "offset": 271,
       "length": 10,
       "value": "\"clientId\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
       "kind": "StringLiteral",
       "offset": 297,
       "length": 6,
       "value": "\"lang\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
       "kind": "StringLiteral",
       "offset": 318,
       "length": 5,
       "value": "\"env\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
       "kind": "StringLiteral",
       "offset": 341,
       "length": 11,
       "value": "\"isFlutter\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
       "kind": "IntegerLiteral",
       "offset": 384,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
       "kind": "IntegerLiteral",
       "offset": 422,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
       "kind": "StringLiteral",
       "offset": 446,
       "length": 4,
       "value": "\"en\""
     },
     {
-      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
+      "filePath": "\/Users\/vnptsi\/AndroidStudioProjects\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
       "kind": "StringLiteral",
       "offset": 472,
       "length": 4,

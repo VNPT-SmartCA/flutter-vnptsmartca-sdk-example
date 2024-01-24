@@ -35,9 +35,13 @@
 		01C9E48C2B2AE3E20033E145 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01C9E4632B2AE3CE0033E145 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		01C9E48D2B2AE3E20033E145 /* SignaturePad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C9E45A2B2AE3CE0033E145 /* SignaturePad.framework */; };
 		01C9E48E2B2AE3E20033E145 /* SignaturePad.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01C9E45A2B2AE3CE0033E145 /* SignaturePad.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		01C9E4912B2AE4530033E145 /* SmartCASDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C9E48F2B2AE4470033E145 /* SmartCASDK.framework */; };
-		01C9E4922B2AE4530033E145 /* SmartCASDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01C9E48F2B2AE4470033E145 /* SmartCASDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
+		3031CCF52B60E71A007B9A65 /* SmartCASDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3031CCF32B60E714007B9A65 /* SmartCASDK.framework */; };
+		3031CCF62B60E71A007B9A65 /* SmartCASDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3031CCF32B60E714007B9A65 /* SmartCASDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3031CCF92B60EB90007B9A65 /* IOSSecuritySuite.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3031CCF72B60EA9A007B9A65 /* IOSSecuritySuite.xcframework */; };
+		3031CCFA2B60EB90007B9A65 /* IOSSecuritySuite.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3031CCF72B60EA9A007B9A65 /* IOSSecuritySuite.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3031CCFD2B60EBC9007B9A65 /* flutter_jailbreak_detection.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3031CCFB2B60EBC1007B9A65 /* flutter_jailbreak_detection.xcframework */; };
+		3031CCFE2B60EBC9007B9A65 /* flutter_jailbreak_detection.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3031CCFB2B60EBC1007B9A65 /* flutter_jailbreak_detection.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
 		495546BDC9A016FFBB83E74D /* Pods_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490585227AE7372B6243C100 /* Pods_RunnerTests.framework */; };
@@ -65,8 +69,10 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				3031CCFA2B60EB90007B9A65 /* IOSSecuritySuite.xcframework in Embed Frameworks */,
 				01C9E4782B2AE3E10033E145 /* eKYCLib.xcframework in Embed Frameworks */,
 				01C9E4862B2AE3E10033E145 /* RxAlamofire.framework in Embed Frameworks */,
+				3031CCFE2B60EBC9007B9A65 /* flutter_jailbreak_detection.xcframework in Embed Frameworks */,
 				01C9E4802B2AE3E10033E145 /* NVActivityIndicatorView.framework in Embed Frameworks */,
 				01C9E4742B2AE3E10033E145 /* Alamofire.framework in Embed Frameworks */,
 				01C9E4842B2AE3E10033E145 /* Result.framework in Embed Frameworks */,
@@ -79,7 +85,7 @@
 				01C9E4882B2AE3E10033E145 /* RxCocoa.framework in Embed Frameworks */,
 				01C9E4762B2AE3E10033E145 /* eContractSDK.framework in Embed Frameworks */,
 				01C9E48E2B2AE3E20033E145 /* SignaturePad.framework in Embed Frameworks */,
-				01C9E4922B2AE4530033E145 /* SmartCASDK.framework in Embed Frameworks */,
+				3031CCF62B60E71A007B9A65 /* SmartCASDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,12 +107,14 @@
 		01C9E4622B2AE3CE0033E145 /* JWTDecode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JWTDecode.framework; sourceTree = "<group>"; };
 		01C9E4632B2AE3CE0033E145 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
 		01C9E4642B2AE3CE0033E145 /* ICSdkEKYC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ICSdkEKYC.xcframework; sourceTree = "<group>"; };
-		01C9E48F2B2AE4470033E145 /* SmartCASDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmartCASDK.framework; sourceTree = "<group>"; };
 		10AD36DB4E4898FE1F7CA044 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		1614238F52327524F452E2CA /* Pods-RunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.debug.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2012EDF14B955A4552DBDE54 /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3031CCF32B60E714007B9A65 /* SmartCASDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmartCASDK.framework; sourceTree = "<group>"; };
+		3031CCF72B60EA9A007B9A65 /* IOSSecuritySuite.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = IOSSecuritySuite.xcframework; sourceTree = "<group>"; };
+		3031CCFB2B60EBC1007B9A65 /* flutter_jailbreak_detection.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = flutter_jailbreak_detection.xcframework; sourceTree = "<group>"; };
 		331C807B294A618700263BE5 /* RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerTests.swift; sourceTree = "<group>"; };
 		331C8081294A63A400263BE5 /* RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36BDC4336AA0FC2D0EE61865 /* Pods-RunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,14 +154,16 @@
 				01C9E4872B2AE3E10033E145 /* RxCocoa.framework in Frameworks */,
 				01C9E4772B2AE3E10033E145 /* eKYCLib.xcframework in Frameworks */,
 				01C9E48B2B2AE3E20033E145 /* RxSwift.framework in Frameworks */,
+				3031CCF92B60EB90007B9A65 /* IOSSecuritySuite.xcframework in Frameworks */,
 				C7E9BD2871B4ABB2FF0B4324 /* Pods_Runner.framework in Frameworks */,
 				01C9E47B2B2AE3E10033E145 /* JWTDecode.framework in Frameworks */,
 				01C9E4732B2AE3E10033E145 /* Alamofire.framework in Frameworks */,
 				01C9E4812B2AE3E10033E145 /* ObjectMapper.framework in Frameworks */,
 				01C9E4852B2AE3E10033E145 /* RxAlamofire.framework in Frameworks */,
+				3031CCFD2B60EBC9007B9A65 /* flutter_jailbreak_detection.xcframework in Frameworks */,
 				01C9E4832B2AE3E10033E145 /* Result.framework in Frameworks */,
 				01C9E4792B2AE3E10033E145 /* ICSdkEKYC.xcframework in Frameworks */,
-				01C9E4912B2AE4530033E145 /* SmartCASDK.framework in Frameworks */,
+				3031CCF52B60E71A007B9A65 /* SmartCASDK.framework in Frameworks */,
 				01C9E47F2B2AE3E10033E145 /* NVActivityIndicatorView.framework in Frameworks */,
 				01C9E4892B2AE3E10033E145 /* RxRelay.framework in Frameworks */,
 			);
@@ -165,7 +175,9 @@
 		01C9E4562B2AE3CE0033E145 /* SmartCASDK */ = {
 			isa = PBXGroup;
 			children = (
-				01C9E48F2B2AE4470033E145 /* SmartCASDK.framework */,
+				3031CCFB2B60EBC1007B9A65 /* flutter_jailbreak_detection.xcframework */,
+				3031CCF72B60EA9A007B9A65 /* IOSSecuritySuite.xcframework */,
+				3031CCF32B60E714007B9A65 /* SmartCASDK.framework */,
 				01C9E4572B2AE3CE0033E145 /* eKYCLib.xcframework */,
 				01C9E4582B2AE3CE0033E145 /* RxAlamofire.framework */,
 				01C9E4592B2AE3CE0033E145 /* NVActivityIndicatorView.framework */,
