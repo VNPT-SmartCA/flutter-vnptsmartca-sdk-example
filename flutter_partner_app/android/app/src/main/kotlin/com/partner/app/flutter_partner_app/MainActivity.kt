@@ -23,15 +23,15 @@ class MainActivity : FlutterFragmentActivity() {
                     colorPrimaryBtn = "#33CC80",
                     featuresLink = "",
                     packageDefault = "",
-                    // password: "Vnpt@123456"
+                    // password: ""
                     logoCustom = "",
                     backgroundLogin = ""
                 );
 
                   var config = ConfigSDK(
                     env = SmartCAEnvironment.DEMO_ENV, // Môi trường kết nối DEMO/PROD
-                    clientId = "4185-637127995547330633.apps.signserviceapi.com", // clientId tương ứng với môi trường được cấp qua email
-                    clientSecret = "NGNhMzdmOGE-OGM2Mi00MTg0", // clientSecret tương ứng với môi trường được cấp qua email                    
+                    clientId = "", // clientId tương ứng với môi trường được cấp qua email
+                    clientSecret = "", // clientSecret tương ứng với môi trường được cấp qua email
                     lang = SmartCALanguage.VI,
                     isFlutter = true,
             	    customParams = customParams,
@@ -88,7 +88,7 @@ class MainActivity : FlutterFragmentActivity() {
 
     private fun getWaitingTransaction(transId: String) {
         try {
-            VNPTSmartCA.getWaitingTransaction(transId,"") { result ->
+            VNPTSmartCA.getWaitingTransaction(transId) { result ->
                 methodChannel.invokeMethod("getWaitingTransactionResult", getMap(result))
             }
         } catch (ex: Exception) {

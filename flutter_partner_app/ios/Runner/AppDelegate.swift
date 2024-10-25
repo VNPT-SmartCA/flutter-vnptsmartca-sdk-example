@@ -25,8 +25,8 @@ import SmartCASDK
             )
         
             let config = SDKConfig(
-                clientId: "4c6a-637932338278807354.apps.smartcaapi.com", 
-                clientSecret: "OTk1NjZlYWY-ZWVhMC00YzZh", 
+                clientId: "",
+                clientSecret: "", 
                 environment: ENVIRONMENT.PRODUCTION, 
                 lang: LANG.VI, 
                 isFlutterApp: true, 
@@ -77,7 +77,7 @@ import SmartCASDK
     
     // Khách hàng xác nhận / hủy giao dịch.
     func getWaitingTransaction(transactionId: String) {
-        self.vnptSmartCASDK?.getWaitingTransaction(tranId: transactionId, accessToken: "", callback: { result in
+        self.vnptSmartCASDK?.getWaitingTransaction(tranId: transactionId, callback: { result in
             self.channelFlutter?.invokeMethod("getWaitingTransactionResult", arguments: result.toJson())
         })
     }

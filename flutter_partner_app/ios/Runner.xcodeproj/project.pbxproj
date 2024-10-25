@@ -8,10 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
-		30189DBC2CABA2E900C2283F /* SmartCASDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30189DBA2CABA2DB00C2283F /* SmartCASDK.framework */; };
-		30189DBD2CABA2E900C2283F /* SmartCASDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30189DBA2CABA2DB00C2283F /* SmartCASDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		30189DBE2CABA6D800C2283F /* local_auth_darwin.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E5EFB92C47C1D600509CB8 /* local_auth_darwin.xcframework */; };
-		30189DBF2CABA6D800C2283F /* local_auth_darwin.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18E5EFB92C47C1D600509CB8 /* local_auth_darwin.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30BAEC6C2CCB358C00126605 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC322CCB356F00126605 /* Alamofire.framework */; };
+		30BAEC6D2CCB358C00126605 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC322CCB356F00126605 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30BAEC6E2CCB358C00126605 /* eContractSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC2F2CCB356F00126605 /* eContractSDK.framework */; };
+		30BAEC6F2CCB358C00126605 /* eContractSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC2F2CCB356F00126605 /* eContractSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30BAEC702CCB358C00126605 /* eKYCLib.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC2B2CCB356F00126605 /* eKYCLib.xcframework */; };
+		30BAEC712CCB358C00126605 /* eKYCLib.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC2B2CCB356F00126605 /* eKYCLib.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30BAEC722CCB358C00126605 /* ICSdkEKYC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC372CCB356F00126605 /* ICSdkEKYC.xcframework */; };
+		30BAEC732CCB358C00126605 /* ICSdkEKYC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC372CCB356F00126605 /* ICSdkEKYC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30BAEC742CCB358C00126605 /* JWTDecode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC352CCB356F00126605 /* JWTDecode.framework */; };
+		30BAEC752CCB358C00126605 /* JWTDecode.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC352CCB356F00126605 /* JWTDecode.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30BAEC762CCB358C00126605 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC302CCB356F00126605 /* Moya.framework */; };
+		30BAEC772CCB358C00126605 /* Moya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC302CCB356F00126605 /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30BAEC782CCB358C00126605 /* NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC2D2CCB356F00126605 /* NVActivityIndicatorView.framework */; };
+		30BAEC792CCB358C00126605 /* NVActivityIndicatorView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC2D2CCB356F00126605 /* NVActivityIndicatorView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30BAEC7A2CCB358C00126605 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC332CCB356F00126605 /* ObjectMapper.framework */; };
+		30BAEC7B2CCB358C00126605 /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC332CCB356F00126605 /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30BAEC7C2CCB358C00126605 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2012EDF14B955A4552DBDE54 /* Pods_Runner.framework */; };
+		30BAEC7E2CCB358C00126605 /* RxAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC2C2CCB356F00126605 /* RxAlamofire.framework */; };
+		30BAEC7F2CCB358C00126605 /* RxAlamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC2C2CCB356F00126605 /* RxAlamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30BAEC802CCB358D00126605 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC342CCB356F00126605 /* RxCocoa.framework */; };
+		30BAEC812CCB358D00126605 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC342CCB356F00126605 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30BAEC822CCB358D00126605 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC312CCB356F00126605 /* RxRelay.framework */; };
+		30BAEC832CCB358D00126605 /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC312CCB356F00126605 /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30BAEC842CCB358D00126605 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC362CCB356F00126605 /* RxSwift.framework */; };
+		30BAEC852CCB358D00126605 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC362CCB356F00126605 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30BAEC862CCB358D00126605 /* SignaturePad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC2E2CCB356F00126605 /* SignaturePad.framework */; };
+		30BAEC872CCB358D00126605 /* SignaturePad.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC2E2CCB356F00126605 /* SignaturePad.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30BAEC882CCB358D00126605 /* SmartCASDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC382CCB356F00126605 /* SmartCASDK.framework */; };
+		30BAEC892CCB358D00126605 /* SmartCASDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAEC382CCB356F00126605 /* SmartCASDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
 		495546BDC9A016FFBB83E74D /* Pods_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490585227AE7372B6243C100 /* Pods_RunnerTests.framework */; };
@@ -19,35 +44,6 @@
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
-		C7E9BD2871B4ABB2FF0B4324 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2012EDF14B955A4552DBDE54 /* Pods_Runner.framework */; };
-		F0F91E0C2BA037BD0036F6B2 /* eKYCLib.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C9E4572B2AE3CE0033E145 /* eKYCLib.xcframework */; };
-		F0F91E0D2BA037BD0036F6B2 /* eKYCLib.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01C9E4572B2AE3CE0033E145 /* eKYCLib.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F0F91E0E2BA037BD0036F6B2 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F91DE12BA034440036F6B2 /* Alamofire.framework */; };
-		F0F91E0F2BA037BD0036F6B2 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0F91DE12BA034440036F6B2 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F0F91E102BA037BD0036F6B2 /* eContractSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F91DE02BA034430036F6B2 /* eContractSDK.framework */; };
-		F0F91E112BA037BD0036F6B2 /* eContractSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0F91DE02BA034430036F6B2 /* eContractSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F0F91E122BA037BD0036F6B2 /* JWTDecode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F91DE22BA034460036F6B2 /* JWTDecode.framework */; };
-		F0F91E132BA037BD0036F6B2 /* JWTDecode.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0F91DE22BA034460036F6B2 /* JWTDecode.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F0F91E142BA037BD0036F6B2 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F91DE32BA034470036F6B2 /* Moya.framework */; };
-		F0F91E152BA037BD0036F6B2 /* Moya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0F91DE32BA034470036F6B2 /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F0F91E162BA037BD0036F6B2 /* NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F91DDF2BA034410036F6B2 /* NVActivityIndicatorView.framework */; };
-		F0F91E172BA037BD0036F6B2 /* NVActivityIndicatorView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0F91DDF2BA034410036F6B2 /* NVActivityIndicatorView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F0F91E182BA037BD0036F6B2 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F91DDC2BA0343C0036F6B2 /* ObjectMapper.framework */; };
-		F0F91E192BA037BD0036F6B2 /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0F91DDC2BA0343C0036F6B2 /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F0F91E1A2BA037BD0036F6B2 /* RxAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F91DE42BA034490036F6B2 /* RxAlamofire.framework */; };
-		F0F91E1B2BA037BD0036F6B2 /* RxAlamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0F91DE42BA034490036F6B2 /* RxAlamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F0F91E1C2BA037BD0036F6B2 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F91DE52BA0344B0036F6B2 /* RxCocoa.framework */; };
-		F0F91E1D2BA037BD0036F6B2 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0F91DE52BA0344B0036F6B2 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F0F91E1E2BA037BD0036F6B2 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F91DE62BA0344C0036F6B2 /* RxRelay.framework */; };
-		F0F91E1F2BA037BD0036F6B2 /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0F91DE62BA0344C0036F6B2 /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F0F91E202BA037BD0036F6B2 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F91DDE2BA0343F0036F6B2 /* RxSwift.framework */; };
-		F0F91E212BA037BD0036F6B2 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0F91DDE2BA0343F0036F6B2 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F0F91E222BA037BD0036F6B2 /* SignaturePad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F91DDD2BA0343E0036F6B2 /* SignaturePad.framework */; };
-		F0F91E232BA037BD0036F6B2 /* SignaturePad.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0F91DDD2BA0343E0036F6B2 /* SignaturePad.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F0F91E262BA037BD0036F6B2 /* ICSdkEKYC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C9E4642B2AE3CE0033E145 /* ICSdkEKYC.xcframework */; };
-		F0F91E272BA037BD0036F6B2 /* ICSdkEKYC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01C9E4642B2AE3CE0033E145 /* ICSdkEKYC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F0F91E2B2BA039690036F6B2 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F91E292BA0395C0036F6B2 /* Result.framework */; };
-		F0F91E2C2BA039690036F6B2 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0F91E292BA0395C0036F6B2 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,22 +63,20 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F0F91E1D2BA037BD0036F6B2 /* RxCocoa.framework in Embed Frameworks */,
-				F0F91E132BA037BD0036F6B2 /* JWTDecode.framework in Embed Frameworks */,
-				F0F91E152BA037BD0036F6B2 /* Moya.framework in Embed Frameworks */,
-				F0F91E172BA037BD0036F6B2 /* NVActivityIndicatorView.framework in Embed Frameworks */,
-				30189DBF2CABA6D800C2283F /* local_auth_darwin.xcframework in Embed Frameworks */,
-				F0F91E1F2BA037BD0036F6B2 /* RxRelay.framework in Embed Frameworks */,
-				F0F91E1B2BA037BD0036F6B2 /* RxAlamofire.framework in Embed Frameworks */,
-				F0F91E212BA037BD0036F6B2 /* RxSwift.framework in Embed Frameworks */,
-				F0F91E0D2BA037BD0036F6B2 /* eKYCLib.xcframework in Embed Frameworks */,
-				F0F91E112BA037BD0036F6B2 /* eContractSDK.framework in Embed Frameworks */,
-				F0F91E232BA037BD0036F6B2 /* SignaturePad.framework in Embed Frameworks */,
-				F0F91E0F2BA037BD0036F6B2 /* Alamofire.framework in Embed Frameworks */,
-				F0F91E2C2BA039690036F6B2 /* Result.framework in Embed Frameworks */,
-				30189DBD2CABA2E900C2283F /* SmartCASDK.framework in Embed Frameworks */,
-				F0F91E272BA037BD0036F6B2 /* ICSdkEKYC.xcframework in Embed Frameworks */,
-				F0F91E192BA037BD0036F6B2 /* ObjectMapper.framework in Embed Frameworks */,
+				30BAEC712CCB358C00126605 /* eKYCLib.xcframework in Embed Frameworks */,
+				30BAEC7F2CCB358C00126605 /* RxAlamofire.framework in Embed Frameworks */,
+				30BAEC792CCB358C00126605 /* NVActivityIndicatorView.framework in Embed Frameworks */,
+				30BAEC6D2CCB358C00126605 /* Alamofire.framework in Embed Frameworks */,
+				30BAEC752CCB358C00126605 /* JWTDecode.framework in Embed Frameworks */,
+				30BAEC732CCB358C00126605 /* ICSdkEKYC.xcframework in Embed Frameworks */,
+				30BAEC852CCB358D00126605 /* RxSwift.framework in Embed Frameworks */,
+				30BAEC772CCB358C00126605 /* Moya.framework in Embed Frameworks */,
+				30BAEC832CCB358D00126605 /* RxRelay.framework in Embed Frameworks */,
+				30BAEC7B2CCB358C00126605 /* ObjectMapper.framework in Embed Frameworks */,
+				30BAEC812CCB358D00126605 /* RxCocoa.framework in Embed Frameworks */,
+				30BAEC6F2CCB358C00126605 /* eContractSDK.framework in Embed Frameworks */,
+				30BAEC872CCB358D00126605 /* SignaturePad.framework in Embed Frameworks */,
+				30BAEC892CCB358D00126605 /* SmartCASDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,17 +84,27 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		01C9E4572B2AE3CE0033E145 /* eKYCLib.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = eKYCLib.xcframework; sourceTree = "<group>"; };
-		01C9E4642B2AE3CE0033E145 /* ICSdkEKYC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ICSdkEKYC.xcframework; sourceTree = "<group>"; };
 		10AD36DB4E4898FE1F7CA044 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		1614238F52327524F452E2CA /* Pods-RunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.debug.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		18E5EFB92C47C1D600509CB8 /* local_auth_darwin.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = local_auth_darwin.xcframework; sourceTree = "<group>"; };
 		18EA51D72C477D9C00CAB4F9 /* ios */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ios; sourceTree = "<group>"; };
 		18EA51D82C477F3400CAB4F9 /* SmartCASDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SmartCASDK.framework; path = ../../../../../../Desktop/CustomSmartCASDK/iOS/SmartCASDK.framework; sourceTree = "<group>"; };
 		2012EDF14B955A4552DBDE54 /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		30189DBA2CABA2DB00C2283F /* SmartCASDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmartCASDK.framework; sourceTree = "<group>"; };
+		30BAEC2B2CCB356F00126605 /* eKYCLib.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = eKYCLib.xcframework; sourceTree = "<group>"; };
+		30BAEC2C2CCB356F00126605 /* RxAlamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxAlamofire.framework; sourceTree = "<group>"; };
+		30BAEC2D2CCB356F00126605 /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NVActivityIndicatorView.framework; sourceTree = "<group>"; };
+		30BAEC2E2CCB356F00126605 /* SignaturePad.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SignaturePad.framework; sourceTree = "<group>"; };
+		30BAEC2F2CCB356F00126605 /* eContractSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = eContractSDK.framework; sourceTree = "<group>"; };
+		30BAEC302CCB356F00126605 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Moya.framework; sourceTree = "<group>"; };
+		30BAEC312CCB356F00126605 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxRelay.framework; sourceTree = "<group>"; };
+		30BAEC322CCB356F00126605 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		30BAEC332CCB356F00126605 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ObjectMapper.framework; sourceTree = "<group>"; };
+		30BAEC342CCB356F00126605 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
+		30BAEC352CCB356F00126605 /* JWTDecode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JWTDecode.framework; sourceTree = "<group>"; };
+		30BAEC362CCB356F00126605 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
+		30BAEC372CCB356F00126605 /* ICSdkEKYC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ICSdkEKYC.xcframework; sourceTree = "<group>"; };
+		30BAEC382CCB356F00126605 /* SmartCASDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmartCASDK.framework; sourceTree = "<group>"; };
 		331C807B294A618700263BE5 /* RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerTests.swift; sourceTree = "<group>"; };
 		331C8081294A63A400263BE5 /* RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36BDC4336AA0FC2D0EE61865 /* Pods-RunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,18 +123,6 @@
 		97C146FD1CF9000F007C117D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0F91DDC2BA0343C0036F6B2 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ObjectMapper.framework; sourceTree = "<group>"; };
-		F0F91DDD2BA0343E0036F6B2 /* SignaturePad.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SignaturePad.framework; sourceTree = "<group>"; };
-		F0F91DDE2BA0343F0036F6B2 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
-		F0F91DDF2BA034410036F6B2 /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NVActivityIndicatorView.framework; sourceTree = "<group>"; };
-		F0F91DE02BA034430036F6B2 /* eContractSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = eContractSDK.framework; sourceTree = "<group>"; };
-		F0F91DE12BA034440036F6B2 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
-		F0F91DE22BA034460036F6B2 /* JWTDecode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JWTDecode.framework; sourceTree = "<group>"; };
-		F0F91DE32BA034470036F6B2 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Moya.framework; sourceTree = "<group>"; };
-		F0F91DE42BA034490036F6B2 /* RxAlamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxAlamofire.framework; sourceTree = "<group>"; };
-		F0F91DE52BA0344B0036F6B2 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
-		F0F91DE62BA0344C0036F6B2 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxRelay.framework; sourceTree = "<group>"; };
-		F0F91E292BA0395C0036F6B2 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Result.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,50 +138,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7E9BD2871B4ABB2FF0B4324 /* Pods_Runner.framework in Frameworks */,
-				F0F91E162BA037BD0036F6B2 /* NVActivityIndicatorView.framework in Frameworks */,
-				F0F91E0E2BA037BD0036F6B2 /* Alamofire.framework in Frameworks */,
-				30189DBC2CABA2E900C2283F /* SmartCASDK.framework in Frameworks */,
-				F0F91E122BA037BD0036F6B2 /* JWTDecode.framework in Frameworks */,
-				F0F91E0C2BA037BD0036F6B2 /* eKYCLib.xcframework in Frameworks */,
-				F0F91E142BA037BD0036F6B2 /* Moya.framework in Frameworks */,
-				F0F91E182BA037BD0036F6B2 /* ObjectMapper.framework in Frameworks */,
-				F0F91E222BA037BD0036F6B2 /* SignaturePad.framework in Frameworks */,
-				F0F91E102BA037BD0036F6B2 /* eContractSDK.framework in Frameworks */,
-				F0F91E202BA037BD0036F6B2 /* RxSwift.framework in Frameworks */,
-				F0F91E2B2BA039690036F6B2 /* Result.framework in Frameworks */,
-				F0F91E1C2BA037BD0036F6B2 /* RxCocoa.framework in Frameworks */,
-				30189DBE2CABA6D800C2283F /* local_auth_darwin.xcframework in Frameworks */,
-				F0F91E1A2BA037BD0036F6B2 /* RxAlamofire.framework in Frameworks */,
-				F0F91E1E2BA037BD0036F6B2 /* RxRelay.framework in Frameworks */,
-				F0F91E262BA037BD0036F6B2 /* ICSdkEKYC.xcframework in Frameworks */,
+				30BAEC862CCB358D00126605 /* SignaturePad.framework in Frameworks */,
+				30BAEC6E2CCB358C00126605 /* eContractSDK.framework in Frameworks */,
+				30BAEC762CCB358C00126605 /* Moya.framework in Frameworks */,
+				30BAEC802CCB358D00126605 /* RxCocoa.framework in Frameworks */,
+				30BAEC702CCB358C00126605 /* eKYCLib.xcframework in Frameworks */,
+				30BAEC842CCB358D00126605 /* RxSwift.framework in Frameworks */,
+				30BAEC7C2CCB358C00126605 /* Pods_Runner.framework in Frameworks */,
+				30BAEC6C2CCB358C00126605 /* Alamofire.framework in Frameworks */,
+				30BAEC742CCB358C00126605 /* JWTDecode.framework in Frameworks */,
+				30BAEC7E2CCB358C00126605 /* RxAlamofire.framework in Frameworks */,
+				30BAEC7A2CCB358C00126605 /* ObjectMapper.framework in Frameworks */,
+				30BAEC722CCB358C00126605 /* ICSdkEKYC.xcframework in Frameworks */,
+				30BAEC782CCB358C00126605 /* NVActivityIndicatorView.framework in Frameworks */,
+				30BAEC822CCB358D00126605 /* RxRelay.framework in Frameworks */,
+				30BAEC882CCB358D00126605 /* SmartCASDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01C9E4562B2AE3CE0033E145 /* SmartCASDK */ = {
+		30BAEC292CCB356F00126605 /* SDK_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				30189DBA2CABA2DB00C2283F /* SmartCASDK.framework */,
-				18E5EFB92C47C1D600509CB8 /* local_auth_darwin.xcframework */,
-				F0F91E292BA0395C0036F6B2 /* Result.framework */,
-				01C9E4572B2AE3CE0033E145 /* eKYCLib.xcframework */,
-				F0F91DE12BA034440036F6B2 /* Alamofire.framework */,
-				F0F91DE02BA034430036F6B2 /* eContractSDK.framework */,
-				F0F91DE22BA034460036F6B2 /* JWTDecode.framework */,
-				F0F91DE32BA034470036F6B2 /* Moya.framework */,
-				F0F91DDF2BA034410036F6B2 /* NVActivityIndicatorView.framework */,
-				F0F91DDC2BA0343C0036F6B2 /* ObjectMapper.framework */,
-				F0F91DE42BA034490036F6B2 /* RxAlamofire.framework */,
-				F0F91DE52BA0344B0036F6B2 /* RxCocoa.framework */,
-				F0F91DE62BA0344C0036F6B2 /* RxRelay.framework */,
-				F0F91DDE2BA0343F0036F6B2 /* RxSwift.framework */,
-				F0F91DDD2BA0343E0036F6B2 /* SignaturePad.framework */,
-				01C9E4642B2AE3CE0033E145 /* ICSdkEKYC.xcframework */,
+				30BAEC2A2CCB356F00126605 /* eContract-eKYC */,
+				30BAEC382CCB356F00126605 /* SmartCASDK.framework */,
 			);
-			path = SmartCASDK;
+			path = SDK_iOS;
+			sourceTree = "<group>";
+		};
+		30BAEC2A2CCB356F00126605 /* eContract-eKYC */ = {
+			isa = PBXGroup;
+			children = (
+				30BAEC2B2CCB356F00126605 /* eKYCLib.xcframework */,
+				30BAEC2C2CCB356F00126605 /* RxAlamofire.framework */,
+				30BAEC2D2CCB356F00126605 /* NVActivityIndicatorView.framework */,
+				30BAEC2E2CCB356F00126605 /* SignaturePad.framework */,
+				30BAEC2F2CCB356F00126605 /* eContractSDK.framework */,
+				30BAEC302CCB356F00126605 /* Moya.framework */,
+				30BAEC312CCB356F00126605 /* RxRelay.framework */,
+				30BAEC322CCB356F00126605 /* Alamofire.framework */,
+				30BAEC332CCB356F00126605 /* ObjectMapper.framework */,
+				30BAEC342CCB356F00126605 /* RxCocoa.framework */,
+				30BAEC352CCB356F00126605 /* JWTDecode.framework */,
+				30BAEC362CCB356F00126605 /* RxSwift.framework */,
+				30BAEC372CCB356F00126605 /* ICSdkEKYC.xcframework */,
+			);
+			path = "eContract-eKYC";
 			sourceTree = "<group>";
 		};
 		331C8082294A63A400263BE5 /* RunnerTests */ = {
@@ -235,7 +231,7 @@
 		97C146F01CF9000F007C117D /* Runner */ = {
 			isa = PBXGroup;
 			children = (
-				01C9E4562B2AE3CE0033E145 /* SmartCASDK */,
+				30BAEC292CCB356F00126605 /* SDK_iOS */,
 				74858FAE1ED2DC5600515810 /* AppDelegate.swift */,
 				97C146FD1CF9000F007C117D /* Assets.xcassets */,
 				97C146FA1CF9000F007C117D /* Main.storyboard */,
@@ -582,6 +578,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Runner/SmartCASDK",
+					"$(PROJECT_DIR)/Runner/SDK_iOS/eContract-eKYC",
+					"$(PROJECT_DIR)/Runner/SDK_iOS",
 				);
 				INFOPLIST_FILE = Runner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -788,6 +786,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Runner/SmartCASDK",
+					"$(PROJECT_DIR)/Runner/SDK_iOS/eContract-eKYC",
+					"$(PROJECT_DIR)/Runner/SDK_iOS",
 				);
 				INFOPLIST_FILE = Runner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -823,6 +823,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Runner/SmartCASDK",
+					"$(PROJECT_DIR)/Runner/SDK_iOS/eContract-eKYC",
+					"$(PROJECT_DIR)/Runner/SDK_iOS",
 				);
 				INFOPLIST_FILE = Runner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
