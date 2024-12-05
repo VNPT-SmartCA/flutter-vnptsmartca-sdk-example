@@ -23,7 +23,7 @@ class MainActivity : FlutterFragmentActivity() {
                     colorPrimaryBtn = "#33CC80",
                     featuresLink = "",
                     packageDefault = "",
-                    // password: ""
+                    password= "",
                     logoCustom = "",
                     backgroundLogin = ""
                 );
