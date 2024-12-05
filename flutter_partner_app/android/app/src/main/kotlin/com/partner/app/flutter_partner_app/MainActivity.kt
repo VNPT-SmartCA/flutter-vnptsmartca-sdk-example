@@ -49,7 +49,7 @@ class MainActivity : FlutterFragmentActivity() {
                         "signOut" -> signOut()
                     }
                 }
-            }, 2000)
+            }, 1000)
 
         } catch (ex: Exception) {
             throw ex;
